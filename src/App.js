@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';  //import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { Footer } from './components/Footer';
 import { NavigationBar } from './components/NavigationBar';
@@ -17,7 +17,7 @@ export default class App extends Component {
       <React.Fragment>
         <NavigationBar />
         <Layout>
-          <Router>
+          <HashRouter basename='/'>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
@@ -26,7 +26,7 @@ export default class App extends Component {
               <Route path="/contact" component={Contact} />
               <Route component={NoMatch} />
             </Switch>
-          </Router>
+          </HashRouter>
         </Layout>
         <Footer />
       </React.Fragment>
