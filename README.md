@@ -1,14 +1,16 @@
-# 1st Attempt: React Starter 
+# React Starter 
 
-My first attempt in creating a generic React web app ready with **React Router**, **Bootstrap 4** and **Font Awesome**!! :laughing::laughing:
-This repo can be use to kick start your future React websites (ex: Portfolio, Educational, Nonprofit, etc...) :smiley:.
+My first attempt in creating a generic React web app ready with **Hash Router**, **Bootstrap 4** and **Font Awesome**!! :laughing::laughing:<br>
+I created this so that I can easily kick start any future React base projects (ex: Portfolio, Educational, Nonprofit, etc...) :smiley:.
+
 
 
 ### Getting Started
 
 
-First go to your terminal and change directory to where you want to copy remote repo into.
+First go to your terminal and change directory to where you want to copy the remote repo into.<br>
 Then do the following:
+
 
 ##### Clone Repo
 

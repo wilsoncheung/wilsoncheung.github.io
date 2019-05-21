@@ -17,7 +17,7 @@ export class Footer extends Component {
             <footer className="footer" style={footerStyle}>
                 <div className="container">
                     <span className="text-muted">
-                       <a href="/"><img src={logo} alt="Logo" /></a> Copyright &#169; {new Date().getFullYear()}
+                       <img src={logo} alt="Logo" /> Copyright &#169; {new Date().getFullYear()}
                     </span>
                 </div>
             </footer>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';  //import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';  //import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Use if not being hosted on GitHub Pages
 import { Layout } from './components/Layout';
 import { Footer } from './components/Footer';
 import { NavigationBar } from './components/NavigationBar';
