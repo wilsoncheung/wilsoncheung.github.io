@@ -1,3 +1,5 @@
+@import "~animate.css/animate.css";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,11 +7,39 @@
 }
 
 body {
-  font-family: Arial, Arial, Helvetica, sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: Arial, Arial, Helvetica, sans-serif; 
   line-height: 1.4;
 }
 
-a {
-  color: #333;
+.container-fluid {
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+section:nth-child(even) {
+  background-color: grey;
+  color: white;
+}
+
+.h-90 {
+  height: 90%;
+}
+
+a:hover {
   text-decoration: none;
+}
+
+#cursor {
+  border-left: .1em solid;
+  animation: blink .7s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
