@@ -1,8 +1,8 @@
 {
-  "name": "my-react-starter",
+  "name": "personal-portfolio-v1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wilsoncheung.github.io",
+  "homepage": "https://github.com/wilsoncheung/wilsoncheung.github.io",
   "dependencies": {
     "animate.css": "^3.7.2",
     "gh-pages": "^2.0.1",
