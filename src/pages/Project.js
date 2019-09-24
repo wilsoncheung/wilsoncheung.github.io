@@ -36,7 +36,7 @@ export const Project = () => (
                                 <div className="col-md-6">
                                     <div className="card-body">
                                         <h5 className="card-title">Weather App</h5>
-                                        <p className="card-text " style={cardText}>A local weather app that shows you the current weather and the next 5 day forecast. You can also search the weather with any part of the address (zip, city, county, etc..). Built using VueJs framework, Google Geocoding API and Dark Sky API.</p>
+                                        <p className="card-text " style={cardText}>A local weather app that shows you the current weather and the next 5 day forecast. You can also search the weather with any part of the address (city, zip, country, etc..). Built using Vue framework, Google Geocoding API and Dark Sky API.</p>
                                         <p className="card-text"><small className="text-muted">Born Sept 2019</small></p>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ export const Project = () => (
                     </a>
                 </div>
             </div>
-            <ScrollNav to={'Resume'} />
+            <ScrollNav to={'Contact'} />
         </div>
     </section>
 )

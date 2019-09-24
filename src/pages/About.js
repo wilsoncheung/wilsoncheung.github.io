@@ -20,7 +20,7 @@ export const About = () => (
                                 Hi, I'm Wilson, a software developer from New York City with 4 years of experience in building full-stack web applications from soup to nuts. I love to explore and tinker with new tech to see how it works with the exisiting tools I use.
                             </p>
                             <p>
-                                I believe the best way to learn is just do it and learn from your trail and errors. Failure is just another lesson to be learned from.
+                                I believe the best way to learn is just do it and learn from your trial and error. Failure is just another lesson to be learned from.
                             </p>
                             <p>
                                 Currently I am looking for a software developer position to exercise what I have learned professionally and personally.
@@ -41,7 +41,7 @@ export const About = () => (
                                 </div>
                                 <div className="col-6">
                                     <h5><u>Frameworks/ Libraries</u>:</h5>
-                                    <p>ASP.NET, AngularJs, ReactJS, Bootstrap</p>
+                                    <p>ASP.NET, AngularJs, Vue, React, Bootstrap</p>
                                 </div>
                                 <div className="col">
                                     <h5><u>IDE</u>:</h5>
@@ -56,7 +56,7 @@ export const About = () => (
                     </div>
                 </div>
             </div>
-            <ScrollNav to={'footer'} />
+            <ScrollNav to={'Project'} />
         </div>
     </section>
 )
