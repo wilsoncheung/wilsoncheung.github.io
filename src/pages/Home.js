@@ -29,7 +29,7 @@ export default function Home() {
                         <div className="col-auto">
                             <img src={pic} alt="profile-pic" className="img-thumbnail rounded-circle" style={picStyles} />
                         </div>
-                        <div className="col-6">
+                        <div className="col-7">
                             <TypeWriter 
                                 heading={Intro}
                                 dataText={words}

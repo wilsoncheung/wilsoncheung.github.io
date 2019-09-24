@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 import styled from 'styled-components'
 import resume from '../assets/Wilson-Resume.pdf'
 //import logo from '../assets/favicon-32x32.png'
@@ -33,9 +33,7 @@ export const NavigationBar = () => (
         <div className="container-fluid">
             {/* <Link className="navbar-brand" to="/"><img src={logo} alt="Logo" /></Link> */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon">
-                    <i className="fas fa-bars"></i>
-                </span>
+                <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav ml-auto">
@@ -51,7 +49,7 @@ export const NavigationBar = () => (
                         > About Me
                         </StyledLinks>
                     </li>
-                    {/* <li className="nav-item nav-link">
+                    <li className="nav-item nav-link">
                         <i className="far fa-folder"></i>
                         <StyledLinks 
                             activeClass="active"
@@ -62,7 +60,7 @@ export const NavigationBar = () => (
                             duration={500}
                         > Projects
                         </StyledLinks>
-                    </li> */}
+                    </li>
                     <li className="nav-item nav-link">
                         <i className="far fa-address-book"></i>
                         <StyledLinks 
@@ -87,7 +85,7 @@ export const NavigationBar = () => (
                         </StyledLinks> */}
                         <ResumeBtn type="button" className="btn btn-outline-primary btn-sm">
                             <i className="far fa-file-alt"></i>
-                            <a href={resume} target="_blank"> Resume</a>
+                            <a href={resume} target="_blank" rel="noopener noreferrer"> Resume</a>
                         </ResumeBtn>
                     </li>
                 </div>

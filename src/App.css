@@ -43,3 +43,12 @@ a:hover {
     border-color: transparent;
   }
 }
+
+.img-zoom {
+  transform:scale(1, 1);
+  transition: 1s;
+} 
+
+.img-zoom:hover {
+  transform:scale(1.15, 1.15);
+}

@@ -9,7 +9,7 @@ const cardBodyStyles = {
 export const About = () => (
     <section id="About">
         <div className="container h-100">
-            <div className="row h-90 align-content-center">
+            <div className="row  h-90 justify-content-center align-items-center">
                 <div className="col">
                     <div className="card">
                         <div className="card-body" style={cardBodyStyles}>
@@ -23,7 +23,7 @@ export const About = () => (
                                 I believe the best way to learn is just do it and learn from your trail and errors. Failure is just another lesson to be learned from.
                             </p>
                             <p>
-                                Currently I am looking for a software developer position to excersise what I have learned professionally and personally.
+                                Currently I am looking for a software developer position to exercise what I have learned professionally and personally.
                             </p>
                         </div>
                     </div>

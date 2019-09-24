@@ -8,7 +8,7 @@ import { About } from './pages/About';
 import { Contact } from './pages/Contact';
 //import { NoMatch } from './pages/NoMatch';
 import { Project } from './pages/Project';
-import { Resume } from './pages/Resume';
+// import { Resume } from './pages/Resume';
 import './App.css';
 
 export default class App extends Component {
@@ -19,7 +19,7 @@ export default class App extends Component {
         <Layout>
           <Home />
           <About />
-          {/* <Project /> */}
+          <Project />
           {/* <Resume />  */}
           <Contact /> 
         </Layout>
