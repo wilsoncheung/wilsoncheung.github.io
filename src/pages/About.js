@@ -6,6 +6,15 @@ const cardBodyStyles = {
   backgroundColor: "grey"
 };
 
+const styledNav = {
+  position: "absolute",
+  top: "200%",
+  left: "0",
+  right: "0",
+  margin: "0 auto",
+  cursor: "pointer"
+};
+
 export const About = () => (
   <section id="About" className="row justify-content-center align-items-center">
     <div className="container ">
@@ -75,7 +84,9 @@ export const About = () => (
           </div>
         </div>
       </div>
-      <ScrollNav to={"Project"} />
+      <div style={styledNav}>
+        <ScrollNav to={"Project"} />
+      </div>
     </div>
   </section>
 );

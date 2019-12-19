@@ -17,6 +17,14 @@ const imgContainer = {
 const cardText = {
   fontSize: "14px"
 };
+const styledNav = {
+  position: "absolute",
+  top: "300%",
+  left: "0",
+  right: "0",
+  margin: "0 auto",
+  cursor: "pointer"
+};
 
 export const Project = () => (
   <section
@@ -34,8 +42,8 @@ export const Project = () => (
             <u>Projects</u>
           </h2>
           <br />
-          <div class="row">
-            <div class="col-lg-6">
+          <div className="row">
+            <div className="col-lg-6">
               <a
                 href="https://wilsoncheung.github.io/weather-app/"
                 target="_blank"
@@ -76,7 +84,7 @@ export const Project = () => (
                 </div>
               </a>
             </div>
-            <div class="col-lg-6">
+            <div className="col-lg-6">
               <a
                 href="https://wilsoncheung.github.io/movies-app/"
                 target="_blank"
@@ -119,7 +127,9 @@ export const Project = () => (
           </div>
         </div>
       </div>
-      <ScrollNav to={"Contact"} />
+      <div style={styledNav}>
+        <ScrollNav to={"Contact"} />
+      </div>
     </div>
   </section>
 );

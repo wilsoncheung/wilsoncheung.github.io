@@ -46,7 +46,7 @@ export const NavigationBar = () => (
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav ml-auto">
           <li className="nav-item nav-link">
-            <i class="fas fa-home"></i>
+            <i className="fas fa-home"></i>
             <StyledLinks
               activeClass="active"
               to="Home"

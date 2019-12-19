@@ -10,6 +10,15 @@ const picStyles = {
   marginRight: "2em"
 };
 
+const styledNav = {
+  position: "absolute",
+  top: "90%",
+  left: "0",
+  right: "0",
+  margin: "0 auto",
+  cursor: "pointer"
+};
+
 export default function Home() {
   const Intro = "Who Am I? ";
   const words = [
@@ -46,7 +55,9 @@ export default function Home() {
               <TypeWriter heading={Intro} dataText={words} />
             </div>
           </div>
-          <ScrollNav to={"About"} />
+          <div style={styledNav}>
+            <ScrollNav to={"About"} />
+          </div>
         </div>
       </section>
     </React.Fragment>

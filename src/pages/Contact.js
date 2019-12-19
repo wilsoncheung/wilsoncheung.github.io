@@ -4,6 +4,14 @@ import { ScrollNav } from "../components/ScrollNav";
 const textAreaStyles = {
   resize: "none"
 };
+const styledNav = {
+  position: "absolute",
+  top: "400%",
+  left: "0",
+  right: "0",
+  margin: "0 auto",
+  cursor: "pointer"
+};
 
 // make this a class component with states and even handlers
 
@@ -68,7 +76,9 @@ export const Contact = () => (
           </form>
         </div>
       </div>
-      <ScrollNav to={"Home"} />
+      <div style={styledNav}>
+        <ScrollNav to={"Home"} />
+      </div>
     </div>
   </section>
 );
