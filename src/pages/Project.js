@@ -29,22 +29,6 @@ const styledNav = {
 
 // REACT ARROW FUNCTION COMPONENT
 export const Project = () => {
-  const weatherNav = () => {
-    ReactGA.event({
-      category: "Navigation",
-      action: "Weather App clicked."
-    });
-    console.log("Weather app card clicked!");
-  };
-
-  const moviesNav = () => {
-    ReactGA.event({
-      category: "Navigation",
-      action: "Movies App clicked."
-    });
-    console.log("Movies app card clicked!");
-  };
-
   return (
     <section
       id="Project"
@@ -63,11 +47,16 @@ export const Project = () => {
             <br />
             <div className="row">
               <div className="col-lg-6">
-                <a
+                {/* <a
                   href="https://wilsoncheung.github.io/weather-app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={weatherNav}
+                > */}
+                <ReactGA.OutboundLink
+                  eventLabel="weather-app"
+                  to="https://wilsoncheung.github.io/weather-app/"
+                  target="_blank"
                 >
                   <div
                     className="card text-white bg-dark mb-3 shadow rounded"
@@ -102,14 +91,20 @@ export const Project = () => {
                       </div>
                     </div>
                   </div>
-                </a>
+                  {/* </a> */}
+                </ReactGA.OutboundLink>
               </div>
               <div className="col-lg-6">
-                <a
+                {/* <a
                   href="https://wilsoncheung.github.io/movies-app/"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={moviesNav}
+                > */}
+                <ReactGA.OutboundLink
+                  eventLabel="movies-app"
+                  to="https://wilsoncheung.github.io/movies-app/"
+                  target="_blank"
                 >
                   <div
                     className="card text-white bg-dark mb-3 shadow rounded"
@@ -143,7 +138,8 @@ export const Project = () => {
                       </div>
                     </div>
                   </div>
-                </a>
+                  {/* </a> */}
+                </ReactGA.OutboundLink>
               </div>
             </div>
           </div>
