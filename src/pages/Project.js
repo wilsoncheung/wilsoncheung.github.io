@@ -67,9 +67,9 @@ export const Project = () => (
                         <h5 className="card-title">Weather App</h5>
                         <p className="card-text " style={cardText}>
                           A handy weather app that shows you the current weather
-                          and the next 5 day forecast. You can also search for
-                          the weather with any part of the address (city, zip,
-                          country, etc..).
+                          and the next 5-day forecast. You can use any part of
+                          the address (city, zip, etc.) to search for the
+                          weather.
                         </p>
                         <p className="card-text" style={cardText}>
                           Built using Vue, Google Geocoding API, Dark Sky API
