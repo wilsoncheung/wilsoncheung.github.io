@@ -14,7 +14,7 @@ import "./App.css";
 
 function initizeAnalytics() {
   ReactGA.initialize("G-B069H3H6N2", {
-    debug: false
+    debug: true
   });
   ReactGA.pageview("/");
 }
