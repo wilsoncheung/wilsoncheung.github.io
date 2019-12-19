@@ -8,8 +8,9 @@
 
 body {
   /* font-family: 'Open Sans', sans-serif; */
-  font-family: Arial, Arial, Helvetica, sans-serif; 
+  font-family: Arial, Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  padding-top: 65px;
 }
 
 .container-fluid {
@@ -25,17 +26,17 @@ section:nth-child(even) {
   color: white;
 }
 
-.h-90 {
+/* .h-90 {
   height: 90%;
-}
+} */
 
 a:hover {
   text-decoration: none;
 }
 
 #cursor {
-  border-left: .1em solid;
-  animation: blink .7s steps(1) infinite;
+  border-left: 0.1em solid;
+  animation: blink 0.7s steps(1) infinite;
 }
 
 @keyframes blink {
@@ -45,10 +46,10 @@ a:hover {
 }
 
 .img-zoom {
-  transform:scale(1, 1);
+  transform: scale(1, 1);
   transition: 1s;
-} 
+}
 
 .img-zoom:hover {
-  transform:scale(1.15, 1.15);
+  transform: scale(1.15, 1.15);
 }
