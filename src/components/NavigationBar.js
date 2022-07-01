@@ -79,20 +79,6 @@ export const NavigationBar = () => {
               <i className="far fa-folder"></i>
               <StyledLinks
                 activeClass="active"
-                to="Project"
-                spy={true}
-                smooth={true}
-                //offset={-70}
-                duration={500}
-              >
-                {" "}
-                Projects
-              </StyledLinks>
-            </li>
-            <li className="nav-item nav-link">
-              <i className="far fa-address-book"></i>
-              <StyledLinks
-                activeClass="active"
                 to="footer"
                 spy={true}
                 smooth={true}
@@ -100,7 +86,7 @@ export const NavigationBar = () => {
                 duration={500}
               >
                 {" "}
-                Contact
+                Projects
               </StyledLinks>
             </li>
             <li className="nav-item nav-link">

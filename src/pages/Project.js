@@ -84,9 +84,6 @@ export const Project = () => {
                             Built using Vue, Google Geocoding API, Dark Sky API
                             and Bootstrap.
                           </p>
-                          <p className="card-text">
-                            <small className="text-muted">Born Sept 2019</small>
-                          </p>
                         </div>
                       </div>
                     </div>
@@ -131,9 +128,6 @@ export const Project = () => {
                             Built using Vue, Vuex, The Movie DB API and
                             Materialize.
                           </p>
-                          <p className="card-text">
-                            <small className="text-muted">Born Nov 2019</small>
-                          </p>
                         </div>
                       </div>
                     </div>
@@ -144,9 +138,9 @@ export const Project = () => {
             </div>
           </div>
         </div>
-        <div style={styledNav}>
+        {/* <div style={styledNav}>
           <ScrollNav to={"Contact"} />
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -6,7 +6,7 @@ import { Footer } from "./components/Footer";
 import { NavigationBar } from "./components/NavigationBar";
 import Home from "./pages/Home";
 import { About } from "./pages/About";
-import { Contact } from "./pages/Contact";
+// import { Contact } from "./pages/Contact";
 //import { NoMatch } from './pages/NoMatch';
 import { Project } from "./pages/Project";
 // import { Resume } from './pages/Resume';
@@ -29,7 +29,7 @@ export default class App extends Component {
           <Home />
           <About />
           <Project />
-          <Contact />
+          {/* <Contact /> */}
         </Layout>
         <Footer />
       </React.Fragment>
