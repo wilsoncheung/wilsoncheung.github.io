@@ -23,30 +23,25 @@ export const About = () => (
       <div className="row  justify-content-center align-items-center">
         {" "}
         {/*h-90*/}
-        <div className="col-lg-6">
+        <div className="col-lg-8">
           <div className="card">
             <div className="card-body" style={cardBodyStyles}>
-              <h2 className="card-title">
+              <h2 className="card-title text-center mb-4">
                 <i className="far fa-address-card"></i> <u>About Me</u>
               </h2>
               <p>
-                Hi, I'm Wilson, a software developer from New York City with 4
-                years of experience in building full-stack web applications from
-                soup to nuts. I love to explore and tinker with new technology
-                to see how it works and fit with my exisiting tools.
+                I am a software engineer and enthusiast. My curiosity for technology started at an early age when my parents first brought me a Dell computer running on Windows ME, yeah that was a while ago... It piqued my interest when I first played the preloaded pinball and solitary games, and then the internet opened a whole new world afterward. However, it was not until when I went to college and took the very first programming course that propelled my interest into the actual nitty-gritty of how the "Hello World!" program works.
               </p>
               <p>
-                I believe the best way to learn is to just do it and pick up
-                pieces of new information along the journey.
+                The year 2014 was when I first started my journey as a Software Developer working for a small company. It was not easy going from academia to real-world applications of computer science. Although it was tough at first, I had great mentors and co-workers along the way; with perseverance and a lot of hard work, everything just clicked like putting a puzzle together.
               </p>
               <p>
-                Currently I am looking for a software developer position to
-                offer what I have learned professionally and personally.
+                Currently, I am a Software Engineer working for an internet company that helps our clients build tools and get their presence into our ever-more digitalized world.
               </p>
             </div>
           </div>
         </div>
-        <div className="col-lg-6">
+        {/* <div className="col-lg-6">
           <div className="card">
             <div className="card-body" style={cardBodyStyles}>
               <h2 className="card-title text-center mb-3">
@@ -82,10 +77,10 @@ export const About = () => (
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div style={styledNav}>
-        <ScrollNav to={"Project"} />
+        <ScrollNav to={"footer"} />
       </div>
     </div>
   </section>
