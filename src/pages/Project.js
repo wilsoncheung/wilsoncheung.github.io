@@ -2,6 +2,7 @@ import React from "react";
 import ReactGA from "react-ga";
 import weatherSS from "../assets/weather-app.png";
 import moviesSS from "../assets/movies-app.png";
+import whatToWatchSS from "../assets/what-to-watch.png";
 import { ScrollNav } from "../components/ScrollNav";
 
 const cardStyles = {
@@ -45,7 +46,7 @@ export const Project = () => {
               <u>Projects</u>
             </h2>
             <br />
-            <div className="row">
+            <div className="row justify-content-center">
               <div className="col-lg-6">
                 {/* <a
                   href="https://wilsoncheung.github.io/weather-app/"
@@ -127,6 +128,42 @@ export const Project = () => {
                           <p className="card-text" style={cardText}>
                             Built using Vue, Vuex, The Movie DB API and
                             Materialize.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* </a> */}
+                </ReactGA.OutboundLink>
+              </div>
+              <div className="col-lg-6">
+                <ReactGA.OutboundLink
+                  eventLabel="what-to-watch"
+                  to="https://wilsoncheung.github.io/what-to-watch/"
+                  target="_blank"
+                >
+                  <div
+                    className="card text-white bg-dark mb-3 shadow rounded"
+                    style={cardStyles}
+                  >
+                    <div className="row no-gutters">
+                      <div className="col-md-6" style={imgContainer}>
+                        <img
+                          src={whatToWatchSS}
+                          className="card-img img-zoom h-100"
+                          style={imgStyles}
+                          alt="weather-app"
+                        />
+                      </div>
+                      <div className="col-md-6">
+                        <div className="card-body">
+                          <h5 className="card-title">What To Watch</h5>
+                          <p className="card-text " style={cardText}>
+                            An awesome web app where you type a movie title and it returns a
+                            list of similar movie recommendations.
+                          </p>
+                          <p className="card-text" style={cardText}>
+                            Built using Angular, Bootstrap, and The Movie DB API.
                           </p>
                         </div>
                       </div>

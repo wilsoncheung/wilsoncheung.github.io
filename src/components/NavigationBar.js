@@ -2,7 +2,7 @@ import React from "react";
 import ReactGA from "react-ga";
 import { Link } from "react-scroll";
 import styled from "styled-components";
-import resume from "../assets/Wilson-Resume.pdf";
+import resume from "../assets/Wilson Resume.pdf";
 //import logo from '../assets/favicon-32x32.png'
 
 const StyledLinks = styled(Link)`

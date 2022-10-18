@@ -38,7 +38,7 @@ export class Footer extends Component {
                                 </a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.linkedin.com/in/wilson-c-1347b549/" target="_blank">
+                                <a href="https://www.linkedin.com/in/wcheung01/" target="_blank">
                                     <i class="fab fa-linkedin social-icon" style={iconStyle}></i>
                                 </a>
                             </li>
