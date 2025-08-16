@@ -33,9 +33,11 @@ export const About = () => (
               <p>
                 My fascination with technology began at a young age, sparked by my family's first computer—a Dell running Windows ME. While the pre-loaded games like Pinball and Solitaire initially captivated my interest, it was the internet that truly opened up a new world of possibilities. However, my curiosity didn't evolve into a career path until I took my first programming course in college, where I delved into the fundamentals and finally understood the mechanics behind a simple "Hello, World!" program.
               </p>
+              <hr color="white"></hr>
               <p>
                 I started my professional journey as a software developer in 2014 at a small company. The transition from academic theory to real-world applications was challenging, but with the guidance of great mentors and coworkers, I persevered. Through hard work and determination, the pieces of the puzzle began to fall into place.
               </p>
+              <hr color="white"></hr>
               <p>
                 Today, I'm a Software Engineer, tackling unique challenges and finding creative solutions. Hello, World and happy coding! 
               </p>
