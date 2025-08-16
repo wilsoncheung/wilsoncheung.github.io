@@ -29,14 +29,15 @@ export const About = () => (
               <h2 className="card-title text-center mb-4">
                 <i className="far fa-address-card"></i> <u>About Me</u>
               </h2>
+              <h3>A Journey into Software Engineering</h3>
               <p>
-                I am a software engineer and enthusiast. My curiosity for technology started at an early age when my parents first brought me a Dell computer running on Windows ME, yeah that was a while ago... It piqued my interest when I first played the preloaded pinball and solitary games, and then the internet opened a whole new world afterward. However, it was not until when I went to college and took the very first programming course that propelled my interest into the actual nitty-gritty of how the "Hello World!" program works.
+                My fascination with technology began at a young age, sparked by my family's first computer—a Dell running Windows ME. While the pre-loaded games like Pinball and Solitaire initially captivated my interest, it was the internet that truly opened up a new world of possibilities. However, my curiosity didn't evolve into a career path until I took my first programming course in college, where I delved into the fundamentals and finally understood the mechanics behind a simple "Hello, World!" program.
               </p>
               <p>
-                The year 2014 was when I first started my journey as a Software Developer working for a small company. It was not easy going from academia to real-world applications of computer science. Although it was tough at first, I had great mentors and co-workers along the way; with perseverance and a lot of hard work, everything just clicked like putting a puzzle together.
+                I started my professional journey as a software developer in 2014 at a small company. The transition from academic theory to real-world applications was challenging, but with the guidance of great mentors and coworkers, I persevered. Through hard work and determination, the pieces of the puzzle began to fall into place.
               </p>
               <p>
-                Currently, I am a Software Engineer working for an internet company that helps our clients build tools and get their presence into our ever-more digitalized world.
+                Today, I'm a Software Engineer, tackling unique challenges and finding creative solutions. Hello, World and happy coding! 
               </p>
             </div>
           </div>
