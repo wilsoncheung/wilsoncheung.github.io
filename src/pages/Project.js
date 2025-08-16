@@ -175,9 +175,9 @@ export const Project = () => {
             </div>
           </div>
         </div>
-        {/* <div style={styledNav}>
-          <ScrollNav to={"Contact"} />
-        </div> */}
+        <div style={styledNav}>
+          <ScrollNav to={"Home"} />
+        </div>
       </div>
     </section>
   );
