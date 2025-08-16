@@ -176,7 +176,7 @@ export const Project = () => {
           </div>
         </div>
         <div style={styledNav}>
-          <ScrollNav to={"Home"} />
+          <ScrollNav to={"Home"} /> 
         </div>
       </div>
     </section>
